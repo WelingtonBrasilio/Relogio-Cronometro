@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icon -->
+    <script src="https://kit.fontawesome.com/83ccff58df.js" crossorigin="anonymous"></script>
+    <title>Cronômetro</title>
+</head>
+<body>
+    <main>
+        <div class="container d-sm-flex justify-content-center box">
+            <div class="cronometro d-flex align-items-center">
+                <div class="">
+                    <h1>
+                        <img src="img/017-on-time.svg" alt="reset" width="120">
+                    </h1>
+                    <p id="tempo">
+                        00:00:00
+                    </p>
+                    <div>
+                        <button onclick="iniciar()" class="btn btn-light btn-lg m-1">
+                            <img src="img/play-circle.svg" alt="play" width="30">
+                        </button>
+                        <button onclick="parar()" class="btn btn-light btn-lg m-1">
+                            <img src="img/pause-circle.svg" alt="stop" width="30">
+                        </button>
+                        <button onclick="reiniciar()" class="btn btn-light btn-lg m-1">
+                            <img src="img/x-circle.svg" alt="reset" width="30">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- JavaScript (Opcional) -->
+    <script src="js/script.js"></script>
+
+
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
