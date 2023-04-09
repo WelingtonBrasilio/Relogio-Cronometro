@@ -1,8 +1,8 @@
-var hh = 0
-var mm = 0
-var ss = 0
-var tempo = 1000
-var cronometro
+let hh = 0
+let mm = 0
+let ss = 0
+let tempo = 1000
+let cronometro
 
 function iniciar(){
     // Inicia atualização do display a cada segundo
