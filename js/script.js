@@ -36,7 +36,7 @@ function timer(){
     }
 
     //Cria uma variavel com o valor de exibição
-    var display = (hh < 10 ? "0" + hh : hh) + ":" + (mm < 10 ? "0" + mm : mm) + ":" + (ss < 10 ? "0" + ss : ss)
+    let display = (hh < 10 ? "0" + hh : hh) + ":" + (mm < 10 ? "0" + mm : mm) + ":" + (ss < 10 ? "0" + ss : ss)
 
     //Insere o valor no elemento
     document.getElementById("tempo").innerText = display
